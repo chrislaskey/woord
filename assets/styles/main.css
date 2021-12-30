@@ -1,0 +1,233 @@
+/* Universals
+==================================================================================================*/
+html{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	color:#4a453f;
+	font:13px/26px Georgia, Tahoma, serif;
+	margin:0px;
+	padding:0px;
+}
+
+a{
+	color:#807b79;
+	text-decoration:none;
+}
+
+	a:hover{
+		color:#403d3d;
+		text-decoration:none;
+	}
+
+	a:active,
+	a:focus{
+		border:none;
+		outline:none;
+	}
+
+h2{
+	color:#4a453f;
+	font:normal 18px/22px Georgia, Tahoma, serif;
+	margin:0px 0px 10px 0px;
+}
+
+p{
+	margin:0px 0px 26px 0px;
+}
+
+.clear{
+	clear:both;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+	width:1px;
+}
+
+/* Structure
+==================================================================================================*/
+div#wrapper{
+	margin:0px auto;
+	padding:60px 0px 0px 0px;
+	width:600px;
+}
+
+div#header{
+	border-bottom:1px solid #c7bfbd;
+	height:34px;
+	width:600px;
+}
+
+div#line{
+	border-bottom:1px solid #c7bfbd;
+	display:block;
+	font-size:1px;
+	line-height:1px;
+	height:2px;
+	width:600px;
+}
+
+div#main{
+	width:600px;
+}
+
+div#footer{
+	border-bottom:1px solid #c7bfbd;
+	border-top:1px solid #c7bfbd;
+	height:30px;
+	margin:0px 0px 60px 0px;
+	width:600px;
+}
+
+/* Header Content
+==================================================================================================*/
+a#logo{
+	background:url('../images/structure/logo.gif') left center no-repeat;
+	display:block;
+	float:left;
+	height:25px;
+	text-indent:-5000px;
+	width:90px;
+}
+
+ul#nav{
+	display:block;
+	float:right;
+	font:12px/25px Georgia, Tahoma, serif;
+	height:25px;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	width:510px;
+}
+
+	ul#nav li{
+		display:block;
+		float:right;
+		height:25px;
+	}
+		
+		ul#nav li.group{
+			padding:0px 0px 0px 30px;
+		}
+		
+		ul#nav li a{
+			display:block;
+			float:right;
+			height:25px;
+			letter-spacing:1.5px;
+			text-align:right;
+			text-decoration:none;
+		}
+	
+			ul#nav li a span.label{
+				color:#aaa;
+				text-transform:uppercase;
+			}
+		
+			ul#nav li a span.value{
+				color:#615b52;
+			}
+
+/* Main Content
+==================================================================================================*/
+div.message{
+	background:#fcf9f6;
+	border:1px solid #c7bfbd;
+	display:block;
+	padding:15px;
+	margin:20px 0px 20px 0px;
+}
+
+ul.definitions{
+	display:block;
+	line-height:20px;
+	list-style:none;
+	margin:20px 0px;
+	padding:0px 20px;
+	width:540px;
+}
+
+	ul.definitions li.word{
+		display:block;
+		float:left;
+		font-weight:bold;
+		width:60px;
+	}
+	
+	ul.definitions li.definition{
+		display:block;
+		float:left;
+		padding:0px 0px 12px 0px;
+		width:480px;
+	}
+
+div#word{
+	display:block;
+	padding:80px 0px 80px 0px;
+	text-align:center;
+}
+
+	span.noun{
+		font-size:48px;
+		line-height:52px;
+	}
+	
+		span.noun_article{
+			color:#9e370e;
+		}
+		
+			span.noun_article_neuter{
+				color:#0e669e;
+			}
+		
+		span.noun_singular{
+			color:#4a453f;
+		}
+		
+		span.noun_plural_ending{
+			color:#bdbab7;
+		}
+
+
+/* Footer Content
+==================================================================================================*/
+div#footer a{
+	color:#807b79;
+	font:12px/30px Georgia, Tahoma, serif;
+	height:35px;
+	letter-spacing:1.5px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+	div#footer a:hover{
+		color:#403d3d;
+		text-decoration:none;
+	}
+	
+	div#footer a.previous{
+		display:block;
+		float:left;
+		width:200px;
+	}
+	
+	div#footer a.translate{
+		display:block;
+		float:left;
+		text-align:center;
+		width:200px;
+	}
+	
+		div#footer a.translated:hover{
+			color:#807b79;
+		}
+	
+	div#footer a.next{
+		display:block;
+		float:right;
+		text-align:right;
+		width:200px;
+	}
